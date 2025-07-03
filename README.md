@@ -6,6 +6,7 @@ Requirements for the server script:
 - Python 3.5
 
 Server usage:
+-------------
 Server configuration file is `/etc/chatserver.py.conf`. It is a `key=value` type config file. Currently it only has the `port` variable what determines which port the server will listen on. By default, this is `54321`.
 The server by passing these keywords to the script can be instructed to `start`, `stop` or `reload` the configuration. (Note that changing the port during a session will cause the clients to drop.)
 
@@ -15,6 +16,7 @@ Requirements for the client script:
 - Qt5
 
 Client usage:
+-------------
 The user has to set the IP address of the server in the _"host"_ field and the port the server listens on in the _"port"_ field. Before connecting, one must register an account, by filling the _"user"_ and _"password"_ fields and clicking the _"register"_ button. If succeeded, the user may log in. Then the chat window will pop up and the chat partner can be selected and messaged.
 
 Everything in this repository is Public Domain.
