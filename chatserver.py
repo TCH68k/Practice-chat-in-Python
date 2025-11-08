@@ -4,10 +4,10 @@
 	       Version: 2.0.0
 	    Written by: TCH (tch@protonmail.com, http://oscomp.hu)
 	  Contributors: amrhassan, mluebke, SilentGhost, hoangphuctv, zamir, Wolf
-	 Last modified: 2025.07.03.
+	 Last modified: 2025.11.08.
 	Released under: Public Domain
 
-$VER: Practice chat server in Python 2.0.0 (03.07.2025)
+$VER: chatserver.py 2.0.0 (08.11.2025)
 """
 
 from hashlib import sha256
